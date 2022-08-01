@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(224, 23%, 55%);
+
+}
+
+p {
+    
+    padding: 30px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+a {
+    font-size: large;
+    accent-color: navyblue;
+    font-weight: bold;
+
+}
+
+
+.fa-music {
+    margin: 8px 0 0 5px;
+}
+
+button {
+    display: block;
+    margin-left: 50px;
+    background-color: hsl(223, 47%, 23%);
+    margin-top: 10px;
+
+}
+
+button:nth-of-type(1) {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 3px 5px gray;
+    outline: none;
+    border: none;
+    color: #fff;
+   
+}
+
+button:nth-of-type(1):hover {
+    color: #111;
+    background-color: skyblue;
+}
+
+button:nth-of-type(2) {
+    background-color: #111;
+    margin: 20px 0 0 100px;
+    color: #111;
+    font-size: small;
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 3px 2px gray;
+}
+
+button:nth-of-type(2):hover {
+color: #fff;
+background-color: red;
+}
+
+.background {
+    background-image: url(images/pattern-background-desktop.svg);
+    height: 200px;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+
+.background {
+    background-image: url(images/pattern-background-mobile.svg);
+    height: 200px;
+    background-position: center;
+}
+
+}
+
+.card {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid #111;
+    height: 560px;
+    width: 350px;
+    box-shadow: 0 0 0 0 #111;
+    background-color: #f4f4f4f4;
+    border: none;
+}
+
+.price {
+    margin-right: 30px;
+}
+
+.music {
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    border-radius: 16px;
+    background-color: skyblue;
+    color: #111;
+    margin-left: 30px;
+
+}
+
+
+.payment {
+    
+    height: 50px;
+    width: 300px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment, i a {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 3px 5px #fff;
+}
